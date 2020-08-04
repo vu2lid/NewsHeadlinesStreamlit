@@ -31,7 +31,7 @@ data = load_data(target)
 unmodified_data = data
 
 st.header(
-    f"News headlines of {source} between {data['date_time'].min()} and {data['date_time'].max()}")
+    f"News headlines from {source} between {data['date_time'].min()} and {data['date_time'].max()}")
 
 st.header(
     f"Which locations in the world are connected to the news headlines from {source} ?")
