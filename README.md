@@ -8,7 +8,7 @@ The columns:
 ```
 date_time, source, heading
 ```
-are the primary data. Data in the rest of the columns were derived from the primary data. The data strings went through some cleanup. It can still contain spurious data. 
+are the primary data (date_time is in EST). Data in the rest of the columns were derived from the primary data. The data strings went through some cleanup. It can still contain spurious data. 
 
 This is provided with the hope that it will be a useful learning tool.
 
