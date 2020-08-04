@@ -15,8 +15,8 @@ def load_data(input_json_data):
 
 
 st.title("Analyzing RSS News Feeds")
-st.markdown("This is a dashboard for analyzing and visualizing headlines of RSS news feeds "
-            "from some of the popular news providers on the web")
+st.markdown("This is a dashboard for analyzing and visualizing headlines from RSS news feeds "
+            "of some of the popular news providers on the web")
 
 # List of news sources we have
 display_source = ('bbc', 'cnn', 'dailystar', 'guardian', 'ht', 'jpost', 'khaleejtimes',
