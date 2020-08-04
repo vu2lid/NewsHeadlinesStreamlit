@@ -4,6 +4,14 @@ News headlines visualization using Python 3, NumPy, pandas, Streamlit and pydeck
 
 A collection of news headlines as JSON data files from a number of publicly availabe news sources (these are from the time period between the end of June 2020 and the end of July 2020). A simple Streamlit app to analyze and visualize the data.
 
+The columns:
+```
+date_time, source, heading
+```
+are the primary data. Data in the rest of the columns were derived from the primary data. The data strings went through some cleanup. It can still contain spurious data. 
+
+This is provided with the hope that it will be a useful learning tool.
+
 ## Getting Started
 
 The following instructions will get you a copy of the project up and running on your local machine.
